@@ -20,7 +20,7 @@ const ShowData = () => {
 
     return (
         <>
-            <div>
+            <div style={{margin : "50px"}}>
                 <table>
                     <thead>
                         <tr>
@@ -29,7 +29,7 @@ const ShowData = () => {
                             <th>Mode</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody style={{textAlign : "left"}}>
                         {
                             data?.map((item, index) => (
                                 <tr key={index}>

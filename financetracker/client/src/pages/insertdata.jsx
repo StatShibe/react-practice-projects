@@ -23,8 +23,8 @@ const InsertData = () => {
 }
     return (
         <>
-            <div>
-                <form onSubmit={handleSubmit}>
+            <div style={{margin : "50px"}}>
+                <form onSubmit={handleSubmit} style={{textAlign : "left"}}>
                     <div>
                         <label>Description</label>
                         <input type = "text" name="description" onChange={handleChange}/>
